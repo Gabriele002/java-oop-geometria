@@ -21,19 +21,27 @@ public class Main {
         System.out.println(userRectangle);
         // CREO L`IMMAGINE
 
-        for (int i=0; i<= userBase; i++) {
+        for (int i=1; i< userBase; i++) {
             System.out.print("0");
         }
 
 
-        for (int i = 0; i <userHight ; i++) {
-            System.out.println("0");
+            for (int i = 1; i <= userHight ; i++) {
+                System.out.println("0");
+                for (int j = 1; j < userBase ; j++) {
+                    System.out.print("a");
+                }
+            }
+
+
+
+
+
+        for (int i=0; i< userBase; i++) {
+            System.out.println();
         }
 
 
-        for (int i=0; i<= userBase; i++) {
-            System.out.print("0");
-        }
 
 
         scan.close();
